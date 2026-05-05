@@ -1,0 +1,22 @@
+
+
+> @ia/sdk@0.0.1 build /project/workspace/packages/sdk
+> tsc
+
+[96m../../node_modules/.pnpm/@types+node@20.19.39/node_modules/@types/node/web-globals/fetch.d.ts[0m:[93m3[0m:[93m25[0m - [91merror[0m[90m TS2792: [0mCannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+
+[7m3[0m import * as undici from "undici-types";
+[7m [0m [91m                        ~~~~~~~~~~~~~~[0m
+
+[96m../../node_modules/.pnpm/@types+node@20.19.39/node_modules/@types/node/worker_threads.d.ts[0m:[93m62[0m:[93m34[0m - [91merror[0m[90m TS2792: [0mCannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+
+[7m62[0m     import { MessageEvent } from "undici-types";
+[7m  [0m [91m                                 ~~~~~~~~~~~~~~[0m
+
+
+Found 2 errors in 2 files.
+
+Errors  Files
+     1  ../../node_modules/.pnpm/@types+node@20.19.39/node_modules/@types/node/web-globals/fetch.d.ts[90m:3[0m
+     1  ../../node_modules/.pnpm/@types+node@20.19.39/node_modules/@types/node/worker_threads.d.ts[90m:62[0m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

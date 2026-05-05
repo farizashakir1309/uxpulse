@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "declaration": true,
+
+    "moduleResolution": "Bundler",
+    "lib": ["ESNext", "DOM"],
+
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": ["src"]
+}
